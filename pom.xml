@@ -4,7 +4,7 @@
 	<groupId>com.hackaton</groupId>
 	<artifactId>google-social-graph</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>Google+ Social Graph</name>
 	<description>Shows Google+ circles connections</description>
 
@@ -49,22 +49,7 @@
 		<!-- Spring  -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>${dependency.version.spring}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>${dependency.version.spring}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>${dependency.version.spring}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-orm</artifactId>
 			<version>${dependency.version.spring}</version>
 		</dependency>
 		<dependency>
@@ -75,11 +60,6 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>${dependency.version.spring}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-aspects</artifactId>
 			<version>${dependency.version.spring}</version>
 		</dependency>
 
@@ -94,16 +74,17 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>${dependency.version.slf4j}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>${dependency.version.slf4j}</version>
-		</dependency>
 
 		<dependency>
 			<groupId>com.roche.google</groupId>
 			<artifactId>google-auth-spring</artifactId>
 			<version>1.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${dependency.jackson.version}</version>
 		</dependency>
 
 		<!-- TESTS -->
@@ -144,6 +125,7 @@
 		<dependency.version.spring>3.2.4.RELEASE</dependency.version.spring>
 		<dependency.version.junit>4.9</dependency.version.junit>
 		<dependency.version.logback>1.0.9</dependency.version.logback>
+		<dependency.jackson.version>1.9.10</dependency.jackson.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<suppressCommitBeforeTag>false</suppressCommitBeforeTag>
 	</properties>

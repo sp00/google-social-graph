@@ -8,8 +8,6 @@
 
 	<context:property-placeholder location="classpath:auth.properties" ignore-unresolvable="true"/>
 	<context:annotation-config/>
-	<context:spring-configured/>
-
 
 	<context:component-scan base-package="com.hackaton"/>
 
