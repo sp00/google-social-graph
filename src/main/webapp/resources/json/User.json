@@ -1,0 +1,67 @@
+{
+    "nodes": [
+        {
+            "name": "Myriel",
+            "group": 1,
+			"type":"User",
+			"imageUrl":"https://lh3.googleusercontent.com/-Q37RR3I5bb8/AAAAAAAAAAI/AAAAAAAAAAA/fpg4z2WCofY/s80-c-k-no/photo.jpg"
+        },
+        {
+            "name": "Napoleon",
+            "group": 2,
+			"type":"User",
+			"imageUrl":"https://lh3.googleusercontent.com/-bWvcDyOMZs4/AAAAAAAAAAI/AAAAAAAAAAA/uGwKXhUcgQo/s46-c-k-no/photo.jpg"
+        },
+        {
+            "name": "Mlle.Baptistine",
+            "group": 3,
+			"type":"Circle",
+			"imageUrl":"https://lh3.googleusercontent.com/-bWvcDyOMZs4/AAAAAAAAAAI/AAAAAAAAAAA/uGwKXhUcgQo/s46-c-k-no/photo.jpg"
+        },
+        {
+            "name": "Mme.Magloire",
+            "group": 4,
+			"type":"Circle",
+			"imageUrl":"https://lh3.googleusercontent.com/-bWvcDyOMZs4/AAAAAAAAAAI/AAAAAAAAAAA/uGwKXhUcgQo/s46-c-k-no/photo.jpg"
+        },
+        {
+            "name": "CountessdeLo",
+            "group": 5,
+			"type":"Circle",
+			"imageUrl":"https://lh3.googleusercontent.com/-bWvcDyOMZs4/AAAAAAAAAAI/AAAAAAAAAAA/uGwKXhUcgQo/s46-c-k-no/photo.jpg"
+        },
+        {
+            "name": "Geborand",
+            "group": 6,
+			"type":"Circle",
+			"imageUrl":"https://lh3.googleusercontent.com/-bWvcDyOMZs4/AAAAAAAAAAI/AAAAAAAAAAA/uGwKXhUcgQo/s46-c-k-no/photo.jpg"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "value": 1
+        }
+    ]
+}

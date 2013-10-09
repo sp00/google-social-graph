@@ -78,7 +78,7 @@
 		<dependency>
 			<groupId>com.roche.google</groupId>
 			<artifactId>google-auth-spring</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>1.0.1</version>
 		</dependency>
 
 		<dependency>
