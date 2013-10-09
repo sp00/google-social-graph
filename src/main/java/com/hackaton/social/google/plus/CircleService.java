@@ -1,4 +1,4 @@
-package com.hackaton.google.plus;
+package com.hackaton.social.google.plus;
 
 import java.io.IOException;
 import java.util.Arrays;
