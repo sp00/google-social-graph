@@ -4,18 +4,18 @@ function CollapsibleGraph() {
 	this.link = null;
 	this.node = null;
 	this.root = null;
-	this.width = 1000;
-	this.height = 800;
-
-	this.onCreate("body");
+	this.width = 800;
+	this.height = 580;
+	this.onCreate(".graph-container");
 }
 
 CollapsibleGraph.prototype.onCreate = function (elementName) {
 	force = d3.layout.force()
-		.size([this.width, this.height])
+		.size([this.width, this.height]).linkDistance(25)
+		.charge(-55)
 		.on("tick", this.tick);
 
-	svg = d3.select(elementName).append("svg")
+	svg = d3.select(elementName).append("svg").attr("class", "graph")
 		.attr("width", this.width)
 		.attr("height", this.height);
 
@@ -27,6 +27,7 @@ CollapsibleGraph.prototype.onCreate = function (elementName) {
 CollapsibleGraph.prototype.load = function (url) {
 	$this = this;
 	d3.json(url, function (json) {
+		$('.loader').remove();
 		root = json;
 		update();
 	});
@@ -75,7 +76,9 @@ CollapsibleGraph.prototype.load = function (url) {
 		var enterNode = node.enter();
 
 		var gNode = enterNode.append("g");
-		gNode.attr("class", "node").on("click", click).call(force.drag);
+		gNode.attr("class", "node").on("click", click).on('mouseover',function (d) {
+			$('.selected-label').text(d.label);
+		}).call(force.drag);
 
 		var imageUtil = new ImageUtil();
 		gNode.append("image")
@@ -83,7 +86,6 @@ CollapsibleGraph.prototype.load = function (url) {
 				if (d.type === 'circle') {
 					return 'resources/img/google_circle.svg';
 				}
-
 				return d.imageHref;
 			})
 			.attr("x", function (d) {
@@ -99,8 +101,8 @@ CollapsibleGraph.prototype.load = function (url) {
 				return imageUtil.size(d);
 			});
 
-		gNode.append("text")
-			.attr("dx", 12)
+		var text = gNode.append("text");
+		text.attr("dx", 12)
 			.attr("dy", ".35em")
 			.text(function (d) {
 				return d.label;
@@ -166,11 +168,11 @@ function ImageUtil() {
 
 ImageUtil.prototype.size = function (node) {
 	if (node.root)
-		return this.defSize * 3;
+		return this.defSize * 4;
 	if (node.type === 'circle') {
-		return this.defSize;
+		return this.defSize * 1.5;
 	} else {
-		return this.defSize * 2;
+		return this.defSize * 3;
 	}
 };
 

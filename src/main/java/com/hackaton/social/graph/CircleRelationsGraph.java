@@ -45,6 +45,7 @@ public class CircleRelationsGraph {
 		final BaseNode build = createGraph(graphBuilder, user, depth).build();
 		log.info("Graph for user {} created successfully ({} sec.).", user,
 				(System.currentTimeMillis() - start) / 1000.0);
+		graphBuilder.popPerson();
 		return build;
 	}
 
@@ -74,7 +75,6 @@ public class CircleRelationsGraph {
 			}
 			graphBuilder.popCircle();
 		}
-		graphBuilder.popPerson();
 		return graphBuilder;
 	}
 }

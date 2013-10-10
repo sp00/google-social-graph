@@ -1563,5 +1563,29 @@
 		],
 		"type": "circle",
 		"root": false
+	},
+	{
+		"uid": "1f6ca9e48ae64ab2",
+		"imageHref": null,
+		"label": "Family",
+		"children": [],
+		"type": "circle",
+		"root": false
+	},
+	{
+		"uid": "413e87ed09220c8f",
+		"imageHref": null,
+		"label": "Acquaintances",
+		"children": [],
+		"type": "circle",
+		"root": false
+	},
+	{
+		"uid": "323d3b830eaf33ff",
+		"imageHref": null,
+		"label": "Following",
+		"children": [],
+		"type": "circle",
+		"root": false
 	}
 ], "type": "person", "root": true}

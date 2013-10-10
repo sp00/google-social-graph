@@ -1,15 +1,52 @@
+body {
+    background: #F7F7F7;
+}
+
+.main-wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.graph-container {
+    border: 1px solid #D8D8D8;
+    width: 800px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.graph {
+
+}
+
+.loader {
+    margin: 0 auto;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .link {
     stroke: #ccc;
 }
 
 .node text {
     pointer-events: none;
-    font: 20px sans-serif;
-    font-weight: bold;
     display: none;
-    z-index: 200;
 }
 
-.node:hover text {
-    display: block;
+.top {
+    font-size: 13pt;
+    font-family: "lucida grande", sans-serif;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: darkgray;
+}
+
+.selected-label {
+    color: darkgoldenrod;
+    float: right;
 }

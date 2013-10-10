@@ -23,15 +23,15 @@ public class CircleRelationController {
 	@Autowired
 	private CircleRelationsGraph circleRelationsGraph;
 
-	@RequestMapping(value = "/circle/{id:.*}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-	@ResponseBody
+	@RequestMapping(value = "/circle/{id:.*}", headers = "Accept=application/json,*/*", method = RequestMethod.GET,
+			produces = MediaType.APPLICATION_JSON_VALUE) @ResponseBody
 	public CircleNode getCircleNode(@PathVariable("id") String id, @RequestParam(value = "d", required = false,
 			defaultValue = "1") Long depth) {
 		throw new IllegalStateException("Not yet implemented");
 	}
 
-	@RequestMapping(value = "/person/{id:.*}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-	@ResponseBody
+	@RequestMapping(value = "/person/{id:.*}", headers = "Accept=application/json,*/*", method = RequestMethod.GET,
+			produces = MediaType.APPLICATION_JSON_VALUE) @ResponseBody
 	public BaseNode getPersonNode(@PathVariable("id") String id, @RequestParam(value = "d", required = false,
 			defaultValue = "1") Long depth) {
 		return circleRelationsGraph.createGraph(id, depth.intValue());

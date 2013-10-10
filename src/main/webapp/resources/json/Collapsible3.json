@@ -1,0 +1,107 @@
+{"uid": "104435939536800300374", "imageHref": "/s2/photos/public/AIbEiAIAAABDCNb63oCZ8OfHPSILdmNhcmRfcGhvdG8qKGZjYTIzYTdmNmMwZmI5N2FjOTM5NDk1OWY2NTgwNGExOTYxOWIzYzAwAeNALNRxtxlUU9anhNoeL0noeaIy", "label": "Michal Ziober", "children": [
+	{
+		"uid": "10da9164099572d1",
+		"imageHref": null,
+		"label": "Friends",
+		"children": [
+			{
+				"uid": "108796314486629157262",
+				"imageHref": "https://lh4.googleusercontent.com/-FIm0_t53QZ0/AAAAAAAAAAI/AAAAAAAAAAA/4tdbXC90N3w/photo.jpg?sz=50",
+				"label": "Adam Parchimowicz",
+				"children": [],
+				"type": "person",
+				"root": false
+			},
+			{
+				"uid": "110004669600701782936",
+				"imageHref": "https://lh5.googleusercontent.com/-g978DCRkirQ/AAAAAAAAAAI/AAAAAAAAACU/fbADSVX9fR8/photo.jpg?sz=50",
+				"label": "Adam Parchimowicz",
+				"children": [],
+				"type": "person",
+				"root": false
+			},
+			{
+				"uid": "113076027642276338845",
+				"imageHref": "https://lh4.googleusercontent.com/-mdzAWY9BehQ/AAAAAAAAAAI/AAAAAAAAAXk/zwwchRMegK8/photo.jpg?sz=50",
+				"label": "Jakub Marciniak",
+				"children": [],
+				"type": "person",
+				"root": false
+			},
+			{
+				"uid": "103362753045402486538",
+				"imageHref": "https://lh6.googleusercontent.com/-D7n9R-fCSlI/AAAAAAAAAAI/AAAAAAAAA9c/VrQaiTdm5X0/photo.jpg?sz=50",
+				"label": "Jakub Sobolewski",
+				"children": [],
+				"type": "person",
+				"root": false
+			},
+			{
+				"uid": "110167256460175026384",
+				"imageHref": "https://lh3.googleusercontent.com/-V3G8nNxTp_M/AAAAAAAAAAI/AAAAAAAAAcs/byxtJe0w3cg/photo.jpg?sz=50",
+				"label": "Karol Kraskiewicz",
+				"children": [],
+				"type": "person",
+				"root": false
+			},
+			{
+				"uid": "105814667015721494774",
+				"imageHref": "https://lh3.googleusercontent.com/-TonNZ-LYX4s/AAAAAAAAAAI/AAAAAAAACRs/S51aK01MEdw/photo.jpg?sz=50",
+				"label": "Karol Kraśkiewicz",
+				"children": [],
+				"type": "person",
+				"root": false
+			},
+			{
+				"uid": "109194424769202139628",
+				"imageHref": "https://lh6.googleusercontent.com/-dO0mW7bStWA/AAAAAAAAAAI/AAAAAAAAAA4/0KZtb4Yseow/photo.jpg?sz=50",
+				"label": "Lech Choniawko",
+				"children": [],
+				"type": "person",
+				"root": false
+			},
+			{
+				"uid": "103145992925076801444",
+				"imageHref": "https://lh4.googleusercontent.com/-S4YnFg5Db3E/AAAAAAAAAAI/AAAAAAAAFis/25UfEygMQQE/photo.jpg?sz=50",
+				"label": "Rich Friedland",
+				"children": [],
+				"type": "person",
+				"root": false
+			},
+			{
+				"uid": "103198316992636574538",
+				"imageHref": "https://lh3.googleusercontent.com/-SWZq0DYyyqU/AAAAAAAAAAI/AAAAAAAAAC0/FPG2Wvt8T28/photo.jpg?sz=50",
+				"label": "Slawomir Trzaszczka",
+				"children": [],
+				"type": "person",
+				"root": false
+			}
+		],
+		"type": "circle",
+		"root": false
+	},
+	{
+		"uid": "1f6ca9e48ae64ab2",
+		"imageHref": null,
+		"label": "Family",
+		"children": [],
+		"type": "circle",
+		"root": false
+	},
+	{
+		"uid": "413e87ed09220c8f",
+		"imageHref": null,
+		"label": "Acquaintances",
+		"children": [],
+		"type": "circle",
+		"root": false
+	},
+	{
+		"uid": "323d3b830eaf33ff",
+		"imageHref": null,
+		"label": "Following",
+		"children": [],
+		"type": "circle",
+		"root": false
+	}
+], "type": "person", "root": true}
