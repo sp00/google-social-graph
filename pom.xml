@@ -25,6 +25,11 @@
 		<!-- GOOGLE SERVICES -->
 		<dependency>
 			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-admin</artifactId>
+			<version>directory_v1-rev5-1.15.0-rc</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.apis</groupId>
 			<artifactId>google-api-services-plus</artifactId>
 			<version>v1domains-rev12-1.17.0-rc</version>
 		</dependency>

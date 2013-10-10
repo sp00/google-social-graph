@@ -6,11 +6,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.hackaton.social.google.plus.CircleService;
+import com.hackaton.social.graph.CircleRelationsGraph;
+import com.hackaton.social.model.BaseNode;
 import com.hackaton.social.model.CircleNode;
-import com.hackaton.social.model.PersonNode;
 
 /**
  * @author mdaleki
@@ -20,18 +21,20 @@ import com.hackaton.social.model.PersonNode;
 public class CircleRelationController {
 
 	@Autowired
-	private CircleService circleService;
+	private CircleRelationsGraph circleRelationsGraph;
 
-	@RequestMapping(value = "/circle/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/circle/{id:.*}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
-	public CircleNode getCircleNode(@PathVariable("id") Long id) {
-		return new CircleNode();
+	public CircleNode getCircleNode(@PathVariable("id") String id, @RequestParam(value = "d", required = false,
+			defaultValue = "1") Long depth) {
+		throw new IllegalStateException("Not yet implemented");
 	}
 
-	@RequestMapping(value = "/person/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/person/{id:.*}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
-	public PersonNode getPersonNode(@PathVariable("id") Long id) {
-		return new PersonNode();
+	public BaseNode getPersonNode(@PathVariable("id") String id, @RequestParam(value = "d", required = false,
+			defaultValue = "1") Long depth) {
+		return circleRelationsGraph.createGraph(id, depth.intValue());
 	}
 
 }

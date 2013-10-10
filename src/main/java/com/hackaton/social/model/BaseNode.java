@@ -13,9 +13,36 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class BaseNode {
 
 	@XmlAttribute
-	private String avatarHref;
+	private String id;
 
-	public String getAvatarHref() {
-		return avatarHref;
+	@XmlAttribute
+	private String imageHref;
+
+	@XmlAttribute
+	private String label;
+
+	public BaseNode(final String id, final String label) {
+		this.id = id;
+		this.label = label;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public String getLabel() {
+		return label;
+	}
+
+	public void setLabel(final String label) {
+		this.label = label;
+	}
+
+	public void setImageHref(final String imageHref) {
+		this.imageHref = imageHref;
+	}
+
+	public String getImageHref() {
+		return imageHref;
 	}
 }
