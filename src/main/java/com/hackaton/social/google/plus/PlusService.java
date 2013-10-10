@@ -22,6 +22,7 @@ import com.google.api.services.plus.model.Circle;
 import com.google.api.services.plus.model.CircleFeed;
 import com.google.api.services.plus.model.PeopleFeed;
 import com.google.api.services.plus.model.Person;
+import com.hackaton.social.google.client.http.ExponentialBackOffRequestInitializer;
 import com.roche.google.oauth2.SpringOAuth2Configuration;
 import com.roche.google.util.AuthUtil;
 
@@ -81,6 +82,7 @@ public class PlusService {
 		Credential credential = user == null ? AuthUtil.createOath2Credential(oAuth2Configuration, SCOPES) :
 				AuthUtil.createOath2Credential(oAuth2Configuration, user, SCOPES);
 		return new Plus.Builder(transport, jsonFactory, credential)
+				.setHttpRequestInitializer(new ExponentialBackOffRequestInitializer())
 				.setApplicationName(oAuth2Configuration.getApplicationName()).build();
 	}
 }

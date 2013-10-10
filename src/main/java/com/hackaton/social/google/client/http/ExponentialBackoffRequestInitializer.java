@@ -10,7 +10,7 @@ import com.google.api.client.util.ExponentialBackOff;
 /**
  * @author mdaleki
  */
-public class ExponentialBackoffRequestInitializer implements HttpRequestInitializer {
+public class ExponentialBackOffRequestInitializer implements HttpRequestInitializer {
 	@Override
 	public void initialize(final HttpRequest request) throws IOException {
 		request.setUnsuccessfulResponseHandler(new HttpBackOffUnsuccessfulResponseHandler(new ExponentialBackOff()));

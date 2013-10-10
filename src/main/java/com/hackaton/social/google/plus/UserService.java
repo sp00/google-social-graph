@@ -18,6 +18,7 @@ import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.services.admin.directory.Directory;
 import com.google.api.services.admin.directory.DirectoryScopes;
 import com.google.api.services.admin.directory.model.User;
+import com.hackaton.social.google.client.http.ExponentialBackOffRequestInitializer;
 import com.roche.google.oauth2.SpringOAuth2Configuration;
 import com.roche.google.util.AuthUtil;
 
@@ -39,6 +40,7 @@ public class UserService {
 
 		Credential credential = AuthUtil.createOath2Credential(oAuth2Configuration, Arrays.asList(SCOPES));
 		this.directory = new Directory.Builder(transport, jsonFactory, credential)
+				.setHttpRequestInitializer(new ExponentialBackOffRequestInitializer())
 				.setApplicationName(oAuth2Configuration.getApplicationName()).build();
 	}
 
