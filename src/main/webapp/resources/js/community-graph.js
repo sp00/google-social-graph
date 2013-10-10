@@ -1,6 +1,4 @@
 function CommunityGraph() {
-	this.width = 960;
-	this.height = 500;
 	this.svg = null;
 	this.force = null;
 	
@@ -8,28 +6,28 @@ function CommunityGraph() {
 }
 
 CommunityGraph.prototype.onCreate = function(elementName) {
+	var width = 960, height = 500;
 	svg = d3.select(elementName).append("svg")
-		.attr("width", this.width)
-		.attr("height", this.height);
+		.attr("width", width)
+		.attr("height", height);
 	
 	force = d3.layout.force()
 		.gravity(.05)
 		.distance(100)
 		.charge(-100)
-		.size([this.width, this.height]);
+		.size([width, height]);
 };
 
 CommunityGraph.prototype.load = function(url) {
 	d3.json(url, function(error, json) {
   		force.nodes(json.nodes).links(json.links).start();
 
-		var link = svg.selectAll(".link")
+		var link = this.svg.selectAll(".link")
 			.data(json.links)
 			.enter().append("line")
 			.attr("class", "link");
 
-		var nodes = svg.selectAll(".node");
-  		var node = nodes.data(json.nodes)
+  		var node = this.svg.selectAll(".node").data(json.nodes)
 			.enter().append("g")
 			.attr("class", "node")
 			.call(force.drag);
@@ -59,10 +57,6 @@ CommunityGraph.prototype.load = function(url) {
 				.attr("y2", function(d) { return d.target.y; });
 			
     		node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-  		});
-		
-		svg.selectAll(".node").on("click", function(d) {
-			console.log(d);
   		});
 	});
 };
