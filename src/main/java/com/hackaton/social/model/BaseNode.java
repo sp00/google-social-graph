@@ -1,8 +1,12 @@
 package com.hackaton.social.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
@@ -10,10 +14,10 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.NONE)
-public class BaseNode {
+public abstract class BaseNode {
 
 	@XmlAttribute
-	private String id;
+	private String uid;
 
 	@XmlAttribute
 	private String imageHref;
@@ -21,13 +25,19 @@ public class BaseNode {
 	@XmlAttribute
 	private String label;
 
+	@XmlAttribute
+	private boolean isRoot;
+
+	@XmlElement
+	private List<BaseNode> children = new ArrayList<>();
+
 	public BaseNode(final String id, final String label) {
-		this.id = id;
+		this.uid = id;
 		this.label = label;
 	}
 
-	public String getId() {
-		return id;
+	public String getUid() {
+		return uid;
 	}
 
 	public String getLabel() {
@@ -44,5 +54,19 @@ public class BaseNode {
 
 	public String getImageHref() {
 		return imageHref;
+	}
+
+	public List<BaseNode> getChildren() {
+		return children;
+	}
+
+	public abstract String getType();
+
+	public void setRoot(final boolean root) {
+		isRoot = root;
+	}
+
+	public boolean isRoot() {
+		return isRoot;
 	}
 }

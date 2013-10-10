@@ -36,7 +36,7 @@ public class CircleRelationsGraph {
 		final CircleGraphBuilder graphBuilder = new CircleGraphBuilder();
 		final User domainUser = userService.getUser(user);
 		final Person person = new Person();
-		person.setDisplayName(domainUser.getName().getFullName());
+		person.setDisplayName(domainUser.getName() != null ? domainUser.getName().getFullName() : null);
 		person.setId(domainUser.getId());
 		final Person.Image image = new Person.Image();
 		image.setUrl(domainUser.getThumbnailPhotoUrl());

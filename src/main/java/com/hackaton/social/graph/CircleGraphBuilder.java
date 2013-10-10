@@ -23,7 +23,7 @@ public class CircleGraphBuilder {
 		PersonNode personNode = new PersonNode(person.getId(), person.getDisplayName(),
 				person.getImage() == null ? "DEFAULT" : person.getImage().getUrl());
 		if (!circlesStack.empty()) {
-			circlesStack.peek().getPersons().add(personNode);
+			circlesStack.peek().getChildren().add(personNode);
 		}
 		personsStack.push(personNode);
 		setRootNode(personNode);
@@ -33,13 +33,14 @@ public class CircleGraphBuilder {
 	private void setRootNode(final BaseNode node) {
 		if (null == rootNode) {
 			rootNode = node;
+			rootNode.setRoot(true);
 		}
 	}
 
 	public CircleGraphBuilder pushCircle(Circle circle) {
 		CircleNode circleNode = new CircleNode(circle.getId(), circle.getDisplayName());
 		if (!personsStack.empty()) {
-			personsStack.peek().getCircles().add(circleNode);
+			personsStack.peek().getChildren().add(circleNode);
 		}
 		circlesStack.push(circleNode);
 		setRootNode(circleNode);

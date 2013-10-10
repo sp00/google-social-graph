@@ -1,11 +1,7 @@
 package com.hackaton.social.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
@@ -14,15 +10,14 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 @XmlAccessorType(value = XmlAccessType.NONE)
 public class CircleNode extends BaseNode {
-
-	@XmlElement
-	private List<PersonNode> persons = new ArrayList<>();
+	private static final String TYPE = "circle";
 
 	public CircleNode(final String id, final String label) {
 		super(id, label);
 	}
 
-	public List<PersonNode> getPersons() {
-		return persons;
+	@Override
+	public String getType() {
+		return TYPE;
 	}
 }

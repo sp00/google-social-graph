@@ -1,650 +1,675 @@
 {
-    "name": "Michal Ziober",
-    "children": [
-        {
-            "imageHref": null,
-            "name": "Friends",
-            "children": [
-                {
-                    "name": "Adam Parchimowicz"
-                },
-                {
-                    "name": "Adam Parchimowicz",
-                    "children": [
-                        {
-                            "imageHref": null,
-                            "name": "Friends",
-                            "children": [
-                                {
-                                    "name": "Adam Chwilkowski"
-                                },
-                                {
-                                    "name": "Adam Chwilkowski"
-                                },
-                                {
-                                    "name": "Adam Janicki"
-                                },
-                                {
-                                    "name": "Adam Janicki"
-                                },
-                                {
-                                    "name": "Adam Stradomski"
-                                },
-                                {
-                                    "name": "Aga Ryng"
-                                },
-                                {
-                                    "name": "Agnieszka Ryng"
-                                },
-                                {
-                                    "name": "Donovan Baldwin"
-                                },
-                                {
-                                    "name": "Ewa Patrzykat"
-                                },
-                                {
-                                    "name": "Jakub Marciniak"
-                                },
-                                {
-                                    "name": "Jakub Sobolewski"
-                                },
-                                {
-                                    "name": "Justyna Ziolkowska"
-                                },
-                                {
-                                    "name": "Kamal Kapila"
-                                },
-                                {
-                                    "name": "Karol Kraskiewicz"
-                                },
-                                {
-                                    "name": "Lukasz Walaszczyk"
-                                },
-                                {
-                                    "name": "Marcin Janos"
-                                },
-                                {
-                                    "name": "Michal Szklanowski"
-                                },
-                                {
-                                    "name": "Michal Ziober"
-                                },
-                                {
-                                    "name": "Monica Kumar"
-                                },
-                                {
-                                    "name": "Pawel Kulpa"
-                                },
-                                {
-                                    "name": "Rich Friedland"
-                                },
-                                {
-                                    "name": "Slawomir Trzaszczka"
-                                },
-                                {
-                                    "name": "Tero Laine"
-                                },
-                                {
-                                    "name": "Tomasz Rozanek"
-                                },
-                                {
-                                    "name": "Victor Su"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Herderism",
-                            "children": [
-                                {
-                                    "name": "Jakub Sobolewski"
-                                },
-                                {
-                                    "name": "Michal Ziober"
-                                },
-                                {
-                                    "name": "Rich Friedland"
-                                },
-                                {
-                                    "name": "Tero Laine"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Team",
-                            "children": [
-                                {
-                                    "name": "Jakub Marciniak"
-                                },
-                                {
-                                    "name": "Jakub Sobolewski"
-                                },
-                                {
-                                    "name": "Karol Kraskiewicz"
-                                },
-                                {
-                                    "name": "Marcin Janos"
-                                },
-                                {
-                                    "name": "Michal Ziober"
-                                },
-                                {
-                                    "name": "Slawomir Trzaszczka"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Family",
-                            "children": [
-                                {
-                                    "name": "Julia Parchimowicz"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Jakub Marciniak",
-                    "children": [
-                        {
-                            "imageHref": null,
-                            "name": "Znajomi",
-                            "children": [
-                                {
-                                    "name": "Jakub Marciniak"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Rodzina"
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Dalsi znajomi"
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Obserwowani"
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Gene",
-                            "children": [
-                                {
-                                    "name": "Albert della Gatta"
-                                },
-                                {
-                                    "name": "Anthony Vu"
-                                },
-                                {
-                                    "name": "Archna Tikku"
-                                },
-                                {
-                                    "name": "Conor Cassidy"
-                                },
-                                {
-                                    "name": "Jayashree Ramakrishna"
-                                },
-                                {
-                                    "name": "John Hellen"
-                                },
-                                {
-                                    "name": "Kamal Kapila"
-                                },
-                                {
-                                    "name": "Kevin Chavaree"
-                                },
-                                {
-                                    "name": "Lakshmi Arumugam"
-                                },
-                                {
-                                    "name": "Lukasz Blaszka"
-                                },
-                                {
-                                    "name": "Monica Kumar"
-                                },
-                                {
-                                    "name": "Peter O'Connor"
-                                },
-                                {
-                                    "name": "Praful Desai"
-                                },
-                                {
-                                    "name": "Rich Friedland"
-                                },
-                                {
-                                    "name": "Service Google+ Tool"
-                                },
-                                {
-                                    "name": "Steven Weaver"
-                                },
-                                {
-                                    "name": "Victor Su"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Google Services",
-                            "children": [
-                                {
-                                    "name": "Gmail ."
-                                },
-                                {
-                                    "name": "Google ."
-                                },
-                                {
-                                    "name": "Google Analytics ."
-                                },
-                                {
-                                    "name": "Google Chrome ."
-                                },
-                                {
-                                    "name": "Google Creative Sandbox ."
-                                },
-                                {
-                                    "name": "Google Developers ."
-                                },
-                                {
-                                    "name": "Google Drive ."
-                                },
-                                {
-                                    "name": "Google Enterprise ."
-                                },
-                                {
-                                    "name": "Google Glass ."
-                                },
-                                {
-                                    "name": "Google Maps ."
-                                },
-                                {
-                                    "name": "Google+ ."
-                                },
-                                {
-                                    "name": "Google+ Developers ."
-                                },
-                                {
-                                    "name": "Google+ Your Business ."
-                                },
-                                {
-                                    "name": "Research at Google ."
-                                },
-                                {
-                                    "name": "Sergey Brin"
-                                },
-                                {
-                                    "name": "Think with Google ."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Jakub Sobolewski",
-                    "children": [
-                        {
-                            "imageHref": null,
-                            "name": "Friends",
-                            "children": [
-                                {
-                                    "name": "Adam Babik"
-                                },
-                                {
-                                    "name": "Adam Janicki"
-                                },
-                                {
-                                    "name": "Adam Parchimowicz"
-                                },
-                                {
-                                    "name": "Adam Stradomski"
-                                },
-                                {
-                                    "name": "Agnieszka Ryng"
-                                },
-                                {
-                                    "name": "Arkadiusz Cichocki"
-                                },
-                                {
-                                    "name": "Dariusz Glowacz"
-                                },
-                                {
-                                    "name": "Ewa Patrzykat"
-                                },
-                                {
-                                    "name": "Jakub Marciniak"
-                                },
-                                {
-                                    "name": "Karol Kraskiewicz"
-                                },
-                                {
-                                    "name": "Konrad Tkaczyk"
-                                },
-                                {
-                                    "name": "Lukasz Blaszka"
-                                },
-                                {
-                                    "name": "Lukasz Indyk"
-                                },
-                                {
-                                    "name": "Malgorzata Sanak-JoÅ„czyk"
-                                },
-                                {
-                                    "name": "Marcin Janos"
-                                },
-                                {
-                                    "name": "Marcin Kolodziejczyk"
-                                },
-                                {
-                                    "name": "Michal Ziober"
-                                },
-                                {
-                                    "name": "Monica Kumar"
-                                },
-                                {
-                                    "name": "Slawomir Trzaszczka"
-                                },
-                                {
-                                    "name": "Tomasz Przybyla"
-                                },
-                                {
-                                    "name": "Victor Su"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Google Tools Circle",
-                            "children": [
-                                {
-                                    "name": "Adam Parchimowicz"
-                                },
-                                {
-                                    "name": "Karol Kraskiewicz"
-                                },
-                                {
-                                    "name": "Michal Ziober"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Social Apps Circle",
-                            "children": [
-                                {
-                                    "name": "Jakub Marciniak"
-                                },
-                                {
-                                    "name": "Karol Kraskiewicz"
-                                },
-                                {
-                                    "name": "Lukasz Blaszka"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Genentech circle",
-                            "children": [
-                                {
-                                    "name": "Agnieszka Ryng"
-                                },
-                                {
-                                    "name": "Albert della Gatta"
-                                },
-                                {
-                                    "name": "Archna Tikku"
-                                },
-                                {
-                                    "name": "Heather Cottingham"
-                                },
-                                {
-                                    "name": "Kamal Kapila"
-                                },
-                                {
-                                    "name": "Kevin Chavaree"
-                                },
-                                {
-                                    "name": "Meg Green"
-                                },
-                                {
-                                    "name": "Monica Kumar"
-                                },
-                                {
-                                    "name": "Priya Alavadi"
-                                },
-                                {
-                                    "name": "Rich Friedland"
-                                },
-                                {
-                                    "name": "Victor Su"
-                                },
-                                {
-                                    "name": "Å ukasz Indyk"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Znajomi",
-                            "children": [
-                                {
-                                    "name": "Adam Babik"
-                                },
-                                {
-                                    "name": "Adam Janicki"
-                                },
-                                {
-                                    "name": "Adam Parchimowicz"
-                                },
-                                {
-                                    "name": "Adam Stradomski"
-                                },
-                                {
-                                    "name": "Agnieszka Ryng"
-                                },
-                                {
-                                    "name": "Arkadiusz Cichocki"
-                                },
-                                {
-                                    "name": "Dariusz Glowacz"
-                                },
-                                {
-                                    "name": "Ewa Patrzykat"
-                                },
-                                {
-                                    "name": "Jakub Marciniak"
-                                },
-                                {
-                                    "name": "Karol Kraskiewicz"
-                                },
-                                {
-                                    "name": "Konrad Tkaczyk"
-                                },
-                                {
-                                    "name": "Lukasz Blaszka"
-                                },
-                                {
-                                    "name": "Lukasz Indyk"
-                                },
-                                {
-                                    "name": "Malgorzata Sanak-JoÅ„czyk"
-                                },
-                                {
-                                    "name": "Marcin Janos"
-                                },
-                                {
-                                    "name": "Marcin Kolodziejczyk"
-                                },
-                                {
-                                    "name": "Michal Ziober"
-                                },
-                                {
-                                    "name": "Monica Kumar"
-                                },
-                                {
-                                    "name": "Slawomir Trzaszczka"
-                                },
-                                {
-                                    "name": "Tomasz Przybyla"
-                                },
-                                {
-                                    "name": "Victor Su"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Karol Kraskiewicz",
-                    "children": [
-                        {
-                            "imageHref": null,
-                            "name": "Znajomi",
-                            "children": [
-                                {
-                                    "name": "Jakub Sobolewski"
-                                },
-                                {
-                                    "name": "MiÅ‚osz Kmieciak"
-                                },
-                                {
-                                    "name": "MiÅ‚osz Kmieciak"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Rodzina"
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Dalsi znajomi"
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Obserwowani",
-                            "children": [
-                                {
-                                    "name": "Genentech ."
-                                },
-                                {
-                                    "name": "Google Gooru"
-                                },
-                                {
-                                    "name": "Social & Custom Apps Team ."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Karol KraÅ›kiewicz"
-                },
-                {
-                    "name": "Lech Choniawko"
-                },
-                {
-                    "name": "Rich Friedland"
-                },
-                {
-                    "name": "Slawomir Trzaszczka",
-                    "children": [
-                        {
-                            "imageHref": null,
-                            "name": "Friends",
-                            "children": [
-                                {
-                                    "name": "Adam Chwilkowski"
-                                },
-                                {
-                                    "name": "Adam Chwilkowski"
-                                },
-                                {
-                                    "name": "Adam Janicki"
-                                },
-                                {
-                                    "name": "Adam Janicki"
-                                },
-                                {
-                                    "name": "Adam Stradomski"
-                                },
-                                {
-                                    "name": "Adrian Makowski"
-                                },
-                                {
-                                    "name": "Aga Ryng"
-                                },
-                                {
-                                    "name": "Arkadiusz Cichocki"
-                                },
-                                {
-                                    "name": "Ewa Patrzykat"
-                                },
-                                {
-                                    "name": "Frerich Tergast"
-                                },
-                                {
-                                    "name": "Jakub Marciniak"
-                                },
-                                {
-                                    "name": "Jakub Sobolewski"
-                                },
-                                {
-                                    "name": "Jakub Sobolewski"
-                                },
-                                {
-                                    "name": "Karol Kraskiewicz"
-                                },
-                                {
-                                    "name": "Krzysztof Szczepaniak"
-                                },
-                                {
-                                    "name": "Lorenzo Romeo"
-                                },
-                                {
-                                    "name": "Lukasz Indyk"
-                                },
-                                {
-                                    "name": "Marcin Kolodziejczyk"
-                                },
-                                {
-                                    "name": "Monica Kumar"
-                                },
-                                {
-                                    "name": "Patricia Giorgi"
-                                },
-                                {
-                                    "name": "Pawel Kulpa"
-                                },
-                                {
-                                    "name": "Rich Friedland"
-                                },
-                                {
-                                    "name": "Sebastian Pietrowski"
-                                },
-                                {
-                                    "name": "Tomasz Przybyla"
-                                }
-                            ]
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Family"
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Acquaintances"
-                        },
-                        {
-                            "imageHref": null,
-                            "name": "Following"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"isRoot": true,
+	"name": "Michal Ziober",
+	"children": [
+		{
+			"imageHref": null,
+			"name": "Friends",
+			"type": "circle",
+			"children": [
+				{
+					"name": "Adam Parchimowicz"
+				},
+				{
+					"name": "Adam Parchimowicz",
+					"children": [
+						{
+							"imageHref": null,
+							"name": "Friends",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Adam Chwilkowski"
+								},
+								{
+									"name": "Adam Chwilkowski"
+								},
+								{
+									"name": "Adam Janicki"
+								},
+								{
+									"name": "Adam Janicki"
+								},
+								{
+									"name": "Adam Stradomski"
+								},
+								{
+									"name": "Aga Ryng"
+								},
+								{
+									"name": "Agnieszka Ryng"
+								},
+								{
+									"name": "Donovan Baldwin"
+								},
+								{
+									"name": "Ewa Patrzykat"
+								},
+								{
+									"name": "Jakub Marciniak"
+								},
+								{
+									"name": "Jakub Sobolewski"
+								},
+								{
+									"name": "Justyna Ziolkowska"
+								},
+								{
+									"name": "Kamal Kapila"
+								},
+								{
+									"name": "Karol Kraskiewicz"
+								},
+								{
+									"name": "Lukasz Walaszczyk"
+								},
+								{
+									"name": "Marcin Janos"
+								},
+								{
+									"name": "Michal Szklanowski"
+								},
+								{
+									"name": "Michal Ziober"
+								},
+								{
+									"name": "Monica Kumar"
+								},
+								{
+									"name": "Pawel Kulpa"
+								},
+								{
+									"name": "Rich Friedland"
+								},
+								{
+									"name": "Slawomir Trzaszczka"
+								},
+								{
+									"name": "Tero Laine"
+								},
+								{
+									"name": "Tomasz Rozanek"
+								},
+								{
+									"name": "Victor Su"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Herderism",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Jakub Sobolewski"
+								},
+								{
+									"name": "Michal Ziober"
+								},
+								{
+									"name": "Rich Friedland"
+								},
+								{
+									"name": "Tero Laine"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Team",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Jakub Marciniak"
+								},
+								{
+									"name": "Jakub Sobolewski"
+								},
+								{
+									"name": "Karol Kraskiewicz"
+								},
+								{
+									"name": "Marcin Janos"
+								},
+								{
+									"name": "Michal Ziober"
+								},
+								{
+									"name": "Slawomir Trzaszczka"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Family",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Julia Parchimowicz"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Jakub Marciniak",
+					"children": [
+						{
+							"imageHref": null,
+							"name": "Znajomi",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Jakub Marciniak"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Rodzina",
+							"type": "circle"
+						},
+						{
+							"imageHref": null,
+							"name": "Dalsi znajomi",
+							"type": "circle"
+						},
+						{
+							"imageHref": null,
+							"name": "Obserwowani",
+							"type": "circle"
+						},
+						{
+							"imageHref": null,
+							"name": "Gene",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Albert della Gatta"
+								},
+								{
+									"name": "Anthony Vu"
+								},
+								{
+									"name": "Archna Tikku"
+								},
+								{
+									"name": "Conor Cassidy"
+								},
+								{
+									"name": "Jayashree Ramakrishna"
+								},
+								{
+									"name": "John Hellen"
+								},
+								{
+									"name": "Kamal Kapila"
+								},
+								{
+									"name": "Kevin Chavaree"
+								},
+								{
+									"name": "Lakshmi Arumugam"
+								},
+								{
+									"name": "Lukasz Blaszka"
+								},
+								{
+									"name": "Monica Kumar"
+								},
+								{
+									"name": "Peter O'Connor"
+								},
+								{
+									"name": "Praful Desai"
+								},
+								{
+									"name": "Rich Friedland"
+								},
+								{
+									"name": "Service Google+ Tool"
+								},
+								{
+									"name": "Steven Weaver"
+								},
+								{
+									"name": "Victor Su"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Google Services",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Gmail ."
+								},
+								{
+									"name": "Google ."
+								},
+								{
+									"name": "Google Analytics ."
+								},
+								{
+									"name": "Google Chrome ."
+								},
+								{
+									"name": "Google Creative Sandbox ."
+								},
+								{
+									"name": "Google Developers ."
+								},
+								{
+									"name": "Google Drive ."
+								},
+								{
+									"name": "Google Enterprise ."
+								},
+								{
+									"name": "Google Glass ."
+								},
+								{
+									"name": "Google Maps ."
+								},
+								{
+									"name": "Google+ ."
+								},
+								{
+									"name": "Google+ Developers ."
+								},
+								{
+									"name": "Google+ Your Business ."
+								},
+								{
+									"name": "Research at Google ."
+								},
+								{
+									"name": "Sergey Brin"
+								},
+								{
+									"name": "Think with Google ."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Jakub Sobolewski",
+					"children": [
+						{
+							"imageHref": null,
+							"name": "Friends",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Adam Babik"
+								},
+								{
+									"name": "Adam Janicki"
+								},
+								{
+									"name": "Adam Parchimowicz"
+								},
+								{
+									"name": "Adam Stradomski"
+								},
+								{
+									"name": "Agnieszka Ryng"
+								},
+								{
+									"name": "Arkadiusz Cichocki"
+								},
+								{
+									"name": "Dariusz Glowacz"
+								},
+								{
+									"name": "Ewa Patrzykat"
+								},
+								{
+									"name": "Jakub Marciniak"
+								},
+								{
+									"name": "Karol Kraskiewicz"
+								},
+								{
+									"name": "Konrad Tkaczyk"
+								},
+								{
+									"name": "Lukasz Blaszka"
+								},
+								{
+									"name": "Lukasz Indyk"
+								},
+								{
+									"name": "Malgorzata Sanak-JoÅ„czyk"
+								},
+								{
+									"name": "Marcin Janos"
+								},
+								{
+									"name": "Marcin Kolodziejczyk"
+								},
+								{
+									"name": "Michal Ziober"
+								},
+								{
+									"name": "Monica Kumar"
+								},
+								{
+									"name": "Slawomir Trzaszczka"
+								},
+								{
+									"name": "Tomasz Przybyla"
+								},
+								{
+									"name": "Victor Su"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Google Tools Circle",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Adam Parchimowicz"
+								},
+								{
+									"name": "Karol Kraskiewicz"
+								},
+								{
+									"name": "Michal Ziober"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Social Apps Circle",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Jakub Marciniak"
+								},
+								{
+									"name": "Karol Kraskiewicz"
+								},
+								{
+									"name": "Lukasz Blaszka"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Genentech circle",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Agnieszka Ryng"
+								},
+								{
+									"name": "Albert della Gatta"
+								},
+								{
+									"name": "Archna Tikku"
+								},
+								{
+									"name": "Heather Cottingham"
+								},
+								{
+									"name": "Kamal Kapila"
+								},
+								{
+									"name": "Kevin Chavaree"
+								},
+								{
+									"name": "Meg Green"
+								},
+								{
+									"name": "Monica Kumar"
+								},
+								{
+									"name": "Priya Alavadi"
+								},
+								{
+									"name": "Rich Friedland"
+								},
+								{
+									"name": "Victor Su"
+								},
+								{
+									"name": "Å ukasz Indyk"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Znajomi",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Adam Babik"
+								},
+								{
+									"name": "Adam Janicki"
+								},
+								{
+									"name": "Adam Parchimowicz"
+								},
+								{
+									"name": "Adam Stradomski"
+								},
+								{
+									"name": "Agnieszka Ryng"
+								},
+								{
+									"name": "Arkadiusz Cichocki"
+								},
+								{
+									"name": "Dariusz Glowacz"
+								},
+								{
+									"name": "Ewa Patrzykat"
+								},
+								{
+									"name": "Jakub Marciniak"
+								},
+								{
+									"name": "Karol Kraskiewicz"
+								},
+								{
+									"name": "Konrad Tkaczyk"
+								},
+								{
+									"name": "Lukasz Blaszka"
+								},
+								{
+									"name": "Lukasz Indyk"
+								},
+								{
+									"name": "Malgorzata Sanak-JoÅ„czyk"
+								},
+								{
+									"name": "Marcin Janos"
+								},
+								{
+									"name": "Marcin Kolodziejczyk"
+								},
+								{
+									"name": "Michal Ziober"
+								},
+								{
+									"name": "Monica Kumar"
+								},
+								{
+									"name": "Slawomir Trzaszczka"
+								},
+								{
+									"name": "Tomasz Przybyla"
+								},
+								{
+									"name": "Victor Su"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Karol Kraskiewicz",
+					"children": [
+						{
+							"imageHref": null,
+							"name": "Znajomi",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Jakub Sobolewski"
+								},
+								{
+									"name": "MiÅ‚osz Kmieciak"
+								},
+								{
+									"name": "MiÅ‚osz Kmieciak"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Rodzina",
+							"type": "circle"
+						},
+						{
+							"imageHref": null,
+							"name": "Dalsi znajomi",
+							"type": "circle"
+						},
+						{
+							"imageHref": null,
+							"name": "Obserwowani",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Genentech ."
+								},
+								{
+									"name": "Google Gooru"
+								},
+								{
+									"name": "Social & Custom Apps Team ."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Karol KraÅ›kiewicz"
+				},
+				{
+					"name": "Lech Choniawko"
+				},
+				{
+					"name": "Rich Friedland"
+				},
+				{
+					"name": "Slawomir Trzaszczka",
+					"children": [
+						{
+							"imageHref": null,
+							"name": "Friends",
+							"type": "circle",
+							"children": [
+								{
+									"name": "Adam Chwilkowski"
+								},
+								{
+									"name": "Adam Chwilkowski"
+								},
+								{
+									"name": "Adam Janicki"
+								},
+								{
+									"name": "Adam Janicki"
+								},
+								{
+									"name": "Adam Stradomski"
+								},
+								{
+									"name": "Adrian Makowski"
+								},
+								{
+									"name": "Aga Ryng"
+								},
+								{
+									"name": "Arkadiusz Cichocki"
+								},
+								{
+									"name": "Ewa Patrzykat"
+								},
+								{
+									"name": "Frerich Tergast"
+								},
+								{
+									"name": "Jakub Marciniak"
+								},
+								{
+									"name": "Jakub Sobolewski"
+								},
+								{
+									"name": "Jakub Sobolewski"
+								},
+								{
+									"name": "Karol Kraskiewicz"
+								},
+								{
+									"name": "Krzysztof Szczepaniak"
+								},
+								{
+									"name": "Lorenzo Romeo"
+								},
+								{
+									"name": "Lukasz Indyk"
+								},
+								{
+									"name": "Marcin Kolodziejczyk"
+								},
+								{
+									"name": "Monica Kumar"
+								},
+								{
+									"name": "Patricia Giorgi"
+								},
+								{
+									"name": "Pawel Kulpa"
+								},
+								{
+									"name": "Rich Friedland"
+								},
+								{
+									"name": "Sebastian Pietrowski"
+								},
+								{
+									"name": "Tomasz Przybyla"
+								}
+							]
+						},
+						{
+							"imageHref": null,
+							"name": "Family",
+							"type": "circle"
+						},
+						{
+							"imageHref": null,
+							"name": "Acquaintances",
+							"type": "circle"
+						},
+						{
+							"imageHref": null,
+							"name": "Following",
+							"type": "circle"
+						}
+					]
+				}
+			]
+		}
+	]
 }
